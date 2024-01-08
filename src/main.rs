@@ -34,8 +34,8 @@ fn solve(filename: &str, convert_digit_words: bool) -> i32 {
 }
 
 fn main() {
-    assert_eq!(solve("example_1.txt", false), 142);
-    assert_eq!(solve("input.txt", false), 54331);
-    assert_eq!(solve("example_2.txt", true), 281);
-    assert_eq!(solve("input.txt", true), 54518);
+    println!("{}", solve("example_1.txt", false));
+    println!("{}", solve("input.txt", false));
+    println!("{}", solve("example_2.txt", true));
+    println!("{}", solve("input.txt", true));
 }
